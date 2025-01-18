@@ -16,12 +16,14 @@ var dist = point_distance(center_x, center_y, mouse_x, mouse_y)
 var max_radius = 64
 if (dist > max_radius) {
     var angle = point_direction(center_x, center_y, mouse_x, mouse_y)
-    x = center_x + lengthdir_x(max_radius, angle)
-    y = center_y + lengthdir_y(max_radius, angle)
+	target_x = center_x + lengthdir_x(max_radius, angle);
+	target_y = center_y + lengthdir_y(max_radius, angle);
 } else {
-    x = mouse_x
-    y = mouse_y
+    target_x = mouse_x
+    target_y = mouse_y	
 }
+x = lerp(x, target_x, swing_speed)
+y = lerp(y, target_y, swing_speed)
 
 // Rotate the sword to face cursor
 image_angle = point_direction(center_x, center_y, mouse_x, mouse_y) - 90
