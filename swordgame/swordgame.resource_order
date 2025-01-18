@@ -3,6 +3,7 @@
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"Bebo's Distractions","order":16,"path":"folders/Bebo's Distractions.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
@@ -18,7 +19,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_hero","order":1,"path":"objects/obj_hero/obj_hero.yy",},
+    {"name":"spr_enemy1","order":4,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
+    {"name":"spr_enemy2","order":3,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"spr_hero","order":1,"path":"sprites/spr_hero/spr_hero.yy",},
+    {"name":"spr_NOTENEMY_lilguy","order":2,"path":"sprites/spr_NOTENEMY_lilguy/spr_NOTENEMY_lilguy.yy",},
+    {"name":"spr_Popsicle_Sword","order":1,"path":"sprites/spr_Popsicle_Sword/spr_Popsicle_Sword.yy",},
   ],
 }
