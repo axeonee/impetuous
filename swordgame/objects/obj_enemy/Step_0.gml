@@ -26,3 +26,9 @@ if(place_meeting(x, y, obj_sword) && !hit)
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
 	}
 }
+
+// Damage player
+if(place_meeting(x, y, obj_hero) && !hit) {
+	instance_destroy(self)
+	global.hp -= 10	
+}
