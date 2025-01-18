@@ -10,6 +10,9 @@ if(global.hp = 0)
 // Spawn enemy for testing
 if(keyboard_check_pressed(ord("X")))
 {
+	ScreenHeight = display_get_height() / 2;
+	ScreenWidth = display_get_width() / 2;
+	dir = point_direction(ScreenWidth, ScreenHeight)
 	instance_create_layer(700, 130, "Enemies", obj_enemy)
 }
 

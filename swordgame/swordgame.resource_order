@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_enemymakerlol","order":5,"path":"objects/obj_enemymakerlol/obj_enemymakerlol.yy",},
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_hero","order":1,"path":"objects/obj_hero/obj_hero.yy",},
     {"name":"spr_enemy1","order":4,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
