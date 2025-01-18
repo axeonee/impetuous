@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 // Center position (hero position)
 var center_x = obj_hero.x
 var center_y = obj_hero.y
