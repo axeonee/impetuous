@@ -14,7 +14,7 @@ y += sign(speed)
 if(place_meeting(x, y, obj_sword) && !hit)
 {
 	// Check if hp is 1 and destroy if it is
-	if(hp <= 1)
+	if(hp <= 1 )
 	{
 		instance_destroy(self)
 	}
