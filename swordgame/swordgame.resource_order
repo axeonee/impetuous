@@ -23,6 +23,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_enemy_dasher","order":2,"path":"objects/obj_enemy_dasher/obj_enemy_dasher.yy",},
     {"name":"obj_sword","order":1,"path":"objects/obj_sword/obj_sword.yy",},
     {"name":"obj_wave_spawner","order":1,"path":"objects/obj_wave_spawner/obj_wave_spawner.yy",},
     {"name":"spr_enemy1","order":4,"path":"sprites/spr_enemy1/spr_enemy1.yy",},

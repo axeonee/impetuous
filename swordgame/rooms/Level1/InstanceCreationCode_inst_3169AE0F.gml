@@ -4,8 +4,8 @@ waves = ds_list_create()
 
 // Wave 0
 ds_list_add(waves, [0, obj_enemy_simple, 0, 0])
-ds_list_add(waves, [0, obj_enemy_simple, 0, 50])
-ds_list_add(waves, [0, obj_enemy_simple, 1, 100])
+ds_list_add(waves, [0, obj_enemy_dasher, 0, 50])
+ds_list_add(waves, [0, obj_enemy_dasher, 1, 100])
 
 // Wave 1
 ds_list_add(waves, [1, obj_enemy_simple, 1, 10])
