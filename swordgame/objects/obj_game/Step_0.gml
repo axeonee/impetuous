@@ -7,9 +7,21 @@ if(global.hp = 0)
 	game_restart();
 }
 
-// Spawn enemy for testing
+
+// Manual reset
+if(keyboard_check_pressed(ord("R")))
+{
+	game_restart();
+}
+
+// Spawn simple enemy for testing
 if(keyboard_check_pressed(ord("X")))
 {
 	instance_create_layer(700, 130, "Enemies", obj_enemy_simple)
 }
 
+// Spawn dasher enemy for testing
+else if(keyboard_check_pressed(ord("C")))
+{
+	instance_create_layer(700, 130, "Enemies", obj_enemy_dasher)
+}
