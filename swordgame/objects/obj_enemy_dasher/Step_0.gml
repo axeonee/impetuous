@@ -4,8 +4,37 @@
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
 
 // Move
-x += sign(speed)
-y += sign(speed)
+if place_meeting(x+(sign(speed))*8, y, par_enemy)
+{
+	while !place_meeting(x+(sign(speed)*8),y, par_enemy)
+	{
+		x += sign(speed)	
+	}
+	if place_meeting(x+(sign(speed)*8), y+16, par_enemy)
+	{
+		y -= 4	
+	}
+	else if place_meeting(x+(sign(speed)*8), y-16, par_enemy)
+	{
+		y += 4
+	}
+}
+
+if place_meeting(x, y+(sign(speed))*8, par_enemy)
+{
+	while !place_meeting(x, y+(sign(speed)*8), par_enemy)
+	{
+		y += sign(speed)	
+	}
+	if place_meeting(x+16, y+(sign(speed)*8), par_enemy)
+	{
+		x -= 4	
+	}
+	else if place_meeting(x-16, y+(sign(speed)*8), par_enemy)
+	{
+		x += 4
+	}
+}
 
 // If not dashing and cooldown is down
 if (canDash)

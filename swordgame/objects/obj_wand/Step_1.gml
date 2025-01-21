@@ -8,7 +8,7 @@ image_yscale = abs(owner.image_yscale)
 if (instance_exists(obj_hero))
 {
 	if (obj_hero.x < x) image_yscale = -image_yscale
-	else if (point_distance(obj_hero.x, obj_hero.y, x, y) < 300)
+	if (point_distance(obj_hero.x, obj_hero.y, x, y) < 600)
 	{
 		image_angle = point_direction(x, y, obj_hero.x, obj_hero.y)
 		countdown--

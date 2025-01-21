@@ -14,6 +14,11 @@ if(keyboard_check_pressed(ord("R")))
 	game_restart();
 }
 
+// God mode
+if(keyboard_check_pressed(ord("G")))
+{
+	global.hp = 99999999
+}
 // Spawn simple enemy for testing
 if(keyboard_check_pressed(ord("X")))
 {
