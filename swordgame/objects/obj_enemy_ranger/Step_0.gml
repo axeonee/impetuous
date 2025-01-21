@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Movement, damage & collisions
 
 // Set direction to hero
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
@@ -38,7 +38,6 @@ if place_meeting(x, y+(sign(speed))*8, par_enemy)
 		x += 4
 	}
 }
-
 // If coliding with the sword and isn't damaged
 if(place_meeting(x, y, obj_sword) && !hit)
 {
@@ -49,7 +48,7 @@ if(place_meeting(x, y, obj_sword) && !hit)
 }
 
 // Damage player
-if(place_meeting(x, y, obj_hero) && !hit) {
+if(place_meeting(x, y, obj_hero) && !hit && !obj_hero.inv) {
 	instance_destroy()
 	with (mywand) instance_destroy()
 	global.hp -= 5	

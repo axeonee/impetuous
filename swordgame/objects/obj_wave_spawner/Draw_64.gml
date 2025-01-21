@@ -9,7 +9,7 @@ if (triggered)
 	{
 		str += string(remaining[i]) + "|";
 	}
-	draw_text(25,25,
+	draw_text(250,250,
 	str
 	+"\nwaves total: " +string(total_waves)
 	+"\nwave now: " +string(current_wave)

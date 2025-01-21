@@ -21,7 +21,9 @@ if (triggered)
 	{
 		if (current_wave == total_waves)
 		{
-			// Must add code to go to next level here!
+			// If this isn't the last level, go to the next. Else, go to the menu
+			if (room != room_last) room_goto_next()
+			else room_goto(room_first)
 			instance_destroy()	
 		}
 		else
