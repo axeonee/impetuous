@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Death
-if(global.hp = 0)
+if(global.hp <= 0)
 {
 	game_restart();
 }
@@ -24,4 +24,10 @@ if(keyboard_check_pressed(ord("X")))
 else if(keyboard_check_pressed(ord("C")))
 {
 	instance_create_layer(700, 130, "Enemies", obj_enemy_dasher)
+}
+
+// Spawn dasher enemy for testing
+else if(keyboard_check_pressed(ord("V")))
+{
+	instance_create_layer(700, 130, "Enemies", obj_enemy_chaser)
 }
