@@ -16,9 +16,20 @@ y = lerp(y, target_y, swing_speed)
 // Rotate the sword to face cursor
 image_angle = point_direction(center_x, center_y, mouse_x, mouse_y) - 90
 
-//Check if it has hit an enemy, and if it has make player invulnerable for a few secs
+// Check if it has hit an enemy, and if it has make player invulnerable for a few secs
 if (place_meeting(x, y, par_enemy) && !obj_hero.inv)
 {
 	obj_hero.inv = true
 	alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+}
+
+// Dash ability
+if(mouse_check_button_pressed(mb_left) && !dashing)
+{
+	dashing = true
+	swing_speed = 0.5
+	// reset speed
+	alarm[1] = game_get_speed(gamespeed_fps) * 0.15
+	// dash cooldown
+	alarm[2] = game_get_speed(gamespeed_fps)
 }
