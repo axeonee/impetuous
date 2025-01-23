@@ -17,26 +17,20 @@ ds_list_add(waves, [1, obj_enemy_chaser, 2, 30])
 ds_list_add(waves, [1, obj_enemy_dasher, 1, 100])
 ds_list_add(waves, [1, obj_enemy_dasher, 1, 120])
 ds_list_add(waves, [1, obj_enemy_dasher, 2, 140])
-ds_list_add(waves, [1, obj_enemy_dasher, 2, 160])
-ds_list_add(waves, [1, obj_enemy_dasher, 0, 180])
 
 //Wave 2
 ds_list_add(waves, [2, obj_enemy_simple, 0, 0])
-ds_list_add(waves, [2, obj_enemy_simple, 0, 20])
 ds_list_add(waves, [2, obj_enemy_simple, 1, 0])
-ds_list_add(waves, [2, obj_enemy_simple, 1, 20])
 ds_list_add(waves, [2, obj_enemy_simple, 2, 0])
-ds_list_add(waves, [2, obj_enemy_simple, 2, 20])
 ds_list_add(waves, [2, obj_enemy_simple, 3, 0])
-ds_list_add(waves, [2, obj_enemy_simple, 3, 20])
 
 //Wave 3
 ds_list_add(waves, [3, obj_enemy_chaser, 0, 0])
 ds_list_add(waves, [3, obj_enemy_dasher, 0, 30])
 ds_list_add(waves, [3, obj_enemy_chaser, 1, 0])
 ds_list_add(waves, [3, obj_enemy_dasher, 1, 30])
-ds_list_add(waves, [3, obj_enemy_ranger, 2, 400])
-ds_list_add(waves, [3, obj_enemy_ranger, 3, 400])
+ds_list_add(waves, [3, obj_enemy_ranger, 2, 200])
+ds_list_add(waves, [3, obj_enemy_ranger, 3, 200])
 
 // Spawn points
 spawn[0,0] = 0  //x coordinate of first spawn

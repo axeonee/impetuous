@@ -3,8 +3,8 @@
 // Set direction to hero
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
 
-// Set speed to 4
-speed = 4
+// Set speed to 2
+speed = 2
 
 // Move
 if place_meeting(x+(sign(speed))*8, y, par_enemy)

@@ -20,7 +20,7 @@ image_angle = point_direction(center_x, center_y, mouse_x, mouse_y) - 90
 if (place_meeting(x, y, par_enemy) && !obj_hero.inv)
 {
 	obj_hero.inv = true
-	alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+	alarm[0] = game_get_speed(gamespeed_fps) * 0.7
 }
 
 // Dash ability
