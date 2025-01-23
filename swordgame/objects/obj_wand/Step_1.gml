@@ -21,6 +21,7 @@ if (instance_exists(obj_hero))
 				spd = 10
 				direction = other.image_angle + random_range(-3, 3)
 				image_angle = direction
+				
 			}
 		}
 	}

@@ -3,7 +3,7 @@
 waves = ds_list_create()
 
 // Wave 0
-ds_list_add(waves, [0, obj_enemy_simple, 0, 0])
+ds_list_add(waves, [0, obj_enemy_ranger, 0, 0])
 ds_list_add(waves, [0, obj_enemy_simple, 0, 200])
 ds_list_add(waves, [0, obj_enemy_simple, 0, 400])
 ds_list_add(waves, [0, obj_enemy_simple, 1, 50])
