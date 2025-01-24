@@ -45,6 +45,7 @@ if(place_meeting(x, y, obj_sword) && !hit)
 		hp--
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+		// Play sound
 }
 
 // Damage player

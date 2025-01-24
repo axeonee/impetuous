@@ -32,15 +32,21 @@ ds_list_add(waves, [3, obj_enemy_dasher, 1, 30])
 ds_list_add(waves, [3, obj_enemy_ranger, 2, 200])
 ds_list_add(waves, [3, obj_enemy_ranger, 3, 200])
 
+//End waves
+ds_list_add(waves, [4, obj_healing, 4, 0])
+
 // Spawn points
-spawn[0,0] = 0  //x coordinate of first spawn
+spawn[0,0] = 0  //x coordinate of first spawn MIDDLE LEFT
 spawn[0,1] = 290  //y coordinate of first spawn
 
-spawn[1,0] = 955  //x coordinate of second spawn
+spawn[1,0] = 955  //x coordinate of second spawn MIDDLE RIGHT
 spawn[1,1] = 290  //y coordinate of second spawn
 
-spawn[2,0] = 420  //x coordinate of third spawn
+spawn[2,0] = 420  //x coordinate of third spawn MIDDLE TOP
 spawn[2,1] = 0  //y coordinate of third spawn
 
-spawn[3,0] = 420  //x coordinate of third spawn
+spawn[3,0] = 420  //x coordinate of third spawn MIDDLE BOTTOM
 spawn[3,1] = 580  //y coordinate of third spawn
+
+spawn[4,0] = 480  //x coordinate of fourth spawn CENTER
+spawn[4,1] = 280  //y coordinate of fourth spawn

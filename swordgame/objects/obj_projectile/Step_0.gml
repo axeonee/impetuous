@@ -8,12 +8,14 @@ var nearest = instance_nearest(x, y, par_enemy)
 
 if (place_meeting(x, y, obj_hero))
 {
-	global.hp -= 10
+	global.hp -= 5
+	instance_destroy()
 }
 
 // If sword touches projectile, set parried to true and make the projectile head towards the nearest enemy
 else if (place_meeting(x, y, obj_sword))
 {
+	// Play sound
 	parried = true
 	direction = point_direction(x, y, nearest.x, nearest.y)	
 }
@@ -21,7 +23,7 @@ else if (place_meeting(x, y, obj_sword))
 // If a projectile has been parried and it touches an enemy, decrease its hp by 5
 else if (place_meeting(x, y, par_enemy) && parried)
 {
-	nearest.hp -= 5
+	nearest.hp -= 2
 	parried = false
 	instance_destroy()
 	// TO DO: Add SFX
