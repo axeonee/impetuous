@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (place_meeting(x,y,obj_sword) && global.hp < 50)
+if (place_meeting(x,y,obj_sword))
 {
 	global.hp = 50
 	instance_destroy()

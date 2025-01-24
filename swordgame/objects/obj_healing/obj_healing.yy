@@ -3,6 +3,7 @@
   "%Name":"obj_healing",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_healing",
@@ -11,10 +12,7 @@
     "name":"Enemys",
     "path":"folders/Objects/Enemys.yy",
   },
-  "parentObjectId":{
-    "name":"par_enemy",
-    "path":"objects/par_enemy/par_enemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
