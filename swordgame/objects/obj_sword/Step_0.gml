@@ -27,6 +27,7 @@ if (place_meeting(x, y, par_enemy) && !obj_hero.inv)
 if(mouse_check_button_pressed(mb_left) && !dashing)
 {
 	dashing = true
+	obj_hero.inv = true
 	swing_speed = 0.5
 	// reset speed
 	alarm[1] = game_get_speed(gamespeed_fps) * 0.15

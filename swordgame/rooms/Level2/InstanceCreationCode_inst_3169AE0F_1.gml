@@ -17,12 +17,25 @@ ds_list_add(waves, [1, obj_enemy_ranger, 2, 80])
 // Wave 2
 ds_list_add(waves, [2, obj_enemy_ranger, 0, 0])
 ds_list_add(waves, [2, obj_enemy_ranger, 2, 0])
-ds_list_add(waves, [2, obj_enemy_ranger, 3, 0])
-ds_list_add(waves, [2, obj_enemy_ranger, 5, 0])
+ds_list_add(waves, [2, obj_enemy_ranger, 3, 50])
+ds_list_add(waves, [2, obj_enemy_ranger, 5, 50])
 ds_list_add(waves, [2, obj_enemy_simple, 0, 100])
 ds_list_add(waves, [2, obj_enemy_simple, 2, 100])
 ds_list_add(waves, [2, obj_enemy_simple, 3, 100])
 ds_list_add(waves, [2, obj_enemy_simple, 5, 100])
+
+// Wave 3
+ds_list_add(waves, [3, obj_enemy_ranger, 4, 0])
+ds_list_add(waves, [3, obj_enemy_ranger, 6, 0])
+ds_list_add(waves, [3, obj_enemy_ranger, 4, 100])
+ds_list_add(waves, [3, obj_enemy_ranger, 6, 100])
+ds_list_add(waves, [3, obj_enemy_chaser, 1, 0])
+ds_list_add(waves, [3, obj_enemy_chaser, 7, 0])
+ds_list_add(waves, [3, obj_enemy_chaser, 1, 100])
+ds_list_add(waves, [3, obj_enemy_chaser, 7, 100])
+
+//End waves
+ds_list_add(waves, [4, obj_healing, 8, 0])
 
 // Spawn points
 spawn[0,0] = 0  //x coordinate of first spawn TOP LEFT
@@ -48,3 +61,6 @@ spawn[6,1] = 290  //y coordinate of second spawn
 
 spawn[7,0] = 420  //x coordinate of third spawn MIDDLE BOTTOM
 spawn[7,1] = 580  //y coordinate of third spawn
+
+spawn[8,0] = 480  //x coordinate of fourth spawn CENTER
+spawn[8,1] = 280  //y coordinate of fourth spawn

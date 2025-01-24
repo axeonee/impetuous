@@ -13,7 +13,7 @@ if (place_meeting(x, y, obj_hero))
 }
 
 // If sword touches projectile, set parried to true and make the projectile head towards the nearest enemy
-else if (place_meeting(x, y, obj_sword))
+else if (place_meeting(x, y, obj_sword) && instance_exists(nearest))
 {
 	// Play sound
 	parried = true
@@ -26,5 +26,5 @@ else if (place_meeting(x, y, par_enemy) && parried)
 	nearest.hp -= 2
 	parried = false
 	instance_destroy()
-	// TO DO: Add SFX
+	// TO DO: Add sound
 }
