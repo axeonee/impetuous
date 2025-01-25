@@ -8,7 +8,7 @@ var nearest = instance_nearest(x, y, par_enemy)
 
 if (place_meeting(x, y, obj_hero))
 {
-	global.hp -= 7
+	global.hp -= 15
 	instance_destroy()
 }
 
@@ -23,7 +23,7 @@ else if (place_meeting(x, y, obj_sword) && instance_exists(nearest))
 // If a projectile has been parried and it touches an enemy, decrease its hp by 2
 else if (place_meeting(x, y, par_enemy) && parried)
 {
-	nearest.hp -= 2
+	nearest.hp -= 5
 	parried = false
 	instance_destroy()
 	// TO DO: Add sound
