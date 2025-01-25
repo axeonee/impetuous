@@ -9,6 +9,7 @@
     {"name":"Enemys","order":5,"path":"folders/Objects/Enemys.yy",},
     {"name":"Boss","order":8,"path":"folders/Objects/Enemys/Boss.yy",},
     {"name":"Levels","order":8,"path":"folders/Objects/Levels.yy",},
+    {"name":"Menu","order":9,"path":"folders/Objects/Menu.yy",},
     {"name":"Misc","order":7,"path":"folders/Objects/Misc.yy",},
     {"name":"Parents","order":4,"path":"folders/Objects/Parents.yy",},
     {"name":"Player","order":6,"path":"folders/Objects/Player.yy",},
@@ -26,8 +27,17 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< HEAD
     {"name":"obj_enemy_boss_phase2","order":1,"path":"objects/obj_enemy_boss_phase2/obj_enemy_boss_phase2.yy",},
     {"name":"obj_enemy_boss_phase3","order":4,"path":"objects/obj_enemy_boss_phase3/obj_enemy_boss_phase3.yy",},
+=======
+    {"name":"FontDefault","order":1,"path":"fonts/FontDefault/FontDefault.yy",},
+    {"name":"obj_box","order":3,"path":"objects/obj_box/obj_box.yy",},
+    {"name":"obj_button_help","order":2,"path":"objects/obj_button_help/obj_button_help.yy",},
+    {"name":"obj_button_parent","order":1,"path":"objects/obj_button_parent/obj_button_parent.yy",},
+    {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
+    {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
+>>>>>>> 7d3274e8904c890e9a6ce70902b4eb6a3046d485
     {"name":"obj_enemy_chaser","order":3,"path":"objects/obj_enemy_chaser/obj_enemy_chaser.yy",},
     {"name":"obj_enemy_dasher","order":2,"path":"objects/obj_enemy_dasher/obj_enemy_dasher.yy",},
     {"name":"obj_enemy_ranger","order":5,"path":"objects/obj_enemy_ranger/obj_enemy_ranger.yy",},
@@ -45,8 +55,16 @@
     {"name":"Level2","order":1,"path":"rooms/Level2/Level2.yy",},
     {"name":"Level3","order":2,"path":"rooms/Level3/Level3.yy",},
     {"name":"Level4","order":3,"path":"rooms/Level4/Level4.yy",},
+<<<<<<< HEAD
     {"name":"spr_enemy_boss_phase1","order":11,"path":"sprites/spr_enemy_boss_phase1/spr_enemy_boss_phase1.yy",},
     {"name":"spr_enemy_boss_phase2","order":12,"path":"sprites/spr_enemy_boss_phase2/spr_enemy_boss_phase2.yy",},
+=======
+    {"name":"MainMenu","order":4,"path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"snd_funidisappear","order":4,"path":"sounds/snd_funidisappear/snd_funidisappear.yy",},
+    {"name":"snd_undertaleselect_1","order":6,"path":"sounds/snd_undertaleselect_1/snd_undertaleselect_1.yy",},
+    {"name":"snd_undertaleselect","order":5,"path":"sounds/snd_undertaleselect/snd_undertaleselect.yy",},
+    {"name":"spr_box","order":2,"path":"sprites/spr_box/spr_box.yy",},
+>>>>>>> 7d3274e8904c890e9a6ce70902b4eb6a3046d485
     {"name":"spr_enemy1","order":4,"path":"sprites/spr_enemy1/spr_enemy1.yy",},
     {"name":"spr_enemy2","order":3,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"spr_healing","order":10,"path":"sprites/spr_healing/spr_healing.yy",},
@@ -54,6 +72,7 @@
     {"name":"spr_healthbar","order":5,"path":"sprites/spr_healthbar/spr_healthbar.yy",},
     {"name":"spr_heatlhbar_border","order":7,"path":"sprites/spr_heatlhbar_border/spr_heatlhbar_border.yy",},
     {"name":"spr_hero","order":1,"path":"sprites/spr_hero/spr_hero.yy",},
+    {"name":"spr_mainmenubutton","order":11,"path":"sprites/spr_mainmenubutton/spr_mainmenubutton.yy",},
     {"name":"spr_NOTENEMY_lilguy","order":2,"path":"sprites/spr_NOTENEMY_lilguy/spr_NOTENEMY_lilguy.yy",},
     {"name":"spr_Popsicle_Sword","order":1,"path":"sprites/spr_Popsicle_Sword/spr_Popsicle_Sword.yy",},
     {"name":"spr_projectile","order":9,"path":"sprites/spr_projectile/spr_projectile.yy",},
