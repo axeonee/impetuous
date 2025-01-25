@@ -42,7 +42,5 @@ if(place_meeting(x, y, obj_sword) && !hit)
 
 // Damage player
 if(place_meeting(x, y, obj_hero) && !hit && !obj_hero.inv) {
-	instance_destroy()
-	with (mywand) instance_destroy()
-	global.hp -= 5	
+	global.hp -= 10	
 }

@@ -42,7 +42,7 @@ if (!dashing)
 	dashing = true
 	// Must add EFX
 	
-	speed = 15
+	speed = 20
 	// reset speed
 	alarm[1] = game_get_speed(gamespeed_fps) * 0.15
 	// dash cooldown

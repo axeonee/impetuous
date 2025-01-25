@@ -20,10 +20,10 @@ else if (place_meeting(x, y, obj_sword) && instance_exists(nearest))
 	direction = point_direction(x, y, nearest.x, nearest.y)	
 }
 
-// If a projectile has been parried and it touches an enemy, decrease its hp by 2
+// If a projectile has been parried and it touches an enemy, decrease its hp by 3
 else if (place_meeting(x, y, par_enemy) && parried)
 {
-	nearest.hp -= 5
+	nearest.hp -= 3
 	parried = false
 	instance_destroy()
 	// TO DO: Add sound
