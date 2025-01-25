@@ -58,6 +58,7 @@
     {"name":"spr_Popsicle_Sword","order":1,"path":"sprites/spr_Popsicle_Sword/spr_Popsicle_Sword.yy",},
     {"name":"spr_projectile","order":9,"path":"sprites/spr_projectile/spr_projectile.yy",},
     {"name":"spr_spawn_area","order":2,"path":"sprites/spr_spawn_area/spr_spawn_area.yy",},
+    {"name":"spr_swordNew","order":4,"path":"sprites/spr_swordNew/spr_swordNew.yy",},
     {"name":"spr_wand","order":8,"path":"sprites/spr_wand/spr_wand.yy",},
   ],
 }
