@@ -27,8 +27,6 @@ ds_list_add(waves, [2, obj_enemy_simple, 5, 100])
 // Wave 3
 ds_list_add(waves, [3, obj_enemy_ranger, 4, 0])
 ds_list_add(waves, [3, obj_enemy_ranger, 6, 0])
-ds_list_add(waves, [3, obj_enemy_ranger, 4, 100])
-ds_list_add(waves, [3, obj_enemy_ranger, 6, 100])
 ds_list_add(waves, [3, obj_enemy_chaser, 1, 0])
 ds_list_add(waves, [3, obj_enemy_chaser, 7, 0])
 ds_list_add(waves, [3, obj_enemy_chaser, 1, 100])
