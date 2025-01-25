@@ -42,7 +42,7 @@ if (!dashing)
 	dashing = true
 	// Must add EFX
 	
-	speed = 20
+	speed = 15
 	// reset speed
 	alarm[1] = game_get_speed(gamespeed_fps) * 0.15
 	// dash cooldown
@@ -56,6 +56,7 @@ if(place_meeting(x, y, obj_sword) && !hit)
 		hp--
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+		// Play sound
 }
 
 // Damage player

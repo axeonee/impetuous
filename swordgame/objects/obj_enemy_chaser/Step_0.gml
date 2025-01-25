@@ -3,8 +3,8 @@
 // Set direction to hero
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
 
-// Set speed to 4
-speed = 10
+// Set speed to 7
+speed = 7
 
 // Move
 if place_meeting(x+(sign(speed))*8, y, par_enemy)
@@ -46,6 +46,7 @@ if(place_meeting(x, y, obj_sword) && !hit)
 		hp--
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
+		// Play sound
 }
 
 // Damage player

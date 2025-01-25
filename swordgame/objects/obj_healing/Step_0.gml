@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-target_x = 0
-target_y = 0
-
-swing_speed = 0.09; // Lower = slower
-
-dashing = false
+if (place_meeting(x,y,obj_sword))
+{
+	global.hp = 50
+	instance_destroy()
+}

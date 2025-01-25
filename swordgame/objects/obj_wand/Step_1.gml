@@ -15,10 +15,10 @@ if (instance_exists(obj_hero))
 		if (countdown <= 0)
 		{
 			countdown = countdownrate
-			// Add sound later
+			// Play sound
 			with (instance_create_layer(x, y, "Projectiles", obj_projectile))
 			{
-				spd = 10
+				spd = 8
 				direction = other.image_angle + random_range(-3, 3)
 				image_angle = direction
 				
