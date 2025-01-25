@@ -7,7 +7,27 @@ ds_list_add(waves, [0, obj_enemy_ranger, 4, 0])
 ds_list_add(waves, [0, obj_enemy_chaser, 4, 50])
 ds_list_add(waves, [0, obj_enemy_ranger, 6, 0])
 ds_list_add(waves, [0, obj_enemy_chaser, 6, 50])
-ds_list_add(waves, [0, obj_enemy_boss_phase1, 1, 170])
+ds_list_add(waves, [0, obj_enemy_chaser, 1, 100])
+ds_list_add(waves, [0, obj_enemy_chaser, 2, 150])
+ds_list_add(waves, [0, obj_enemy_chaser, 3, 200])
+ds_list_add(waves, [0, obj_enemy_chaser, 4, 250])
+ds_list_add(waves, [0, obj_enemy_chaser, 5, 300])
+ds_list_add(waves, [0, obj_enemy_chaser, 6, 450])
+ds_list_add(waves, [0, obj_enemy_chaser, 7, 500])
+ds_list_add(waves, [0, obj_enemy_chaser, 1, 550])
+ds_list_add(waves, [0, obj_enemy_chaser, 2, 600])
+
+ds_list_add(waves, [0, obj_enemy_dasher, 0, 1800])
+ds_list_add(waves, [0, obj_enemy_dasher, 2, 1800])
+ds_list_add(waves, [0, obj_enemy_dasher, 3, 1900])
+ds_list_add(waves, [0, obj_enemy_dasher, 5, 1900])
+
+ds_list_add(waves, [0, obj_enemy_dasher, 0, 2000])
+ds_list_add(waves, [0, obj_enemy_dasher, 2, 2000])
+ds_list_add(waves, [0, obj_enemy_dasher, 3, 2100])
+ds_list_add(waves, [0, obj_enemy_dasher, 5, 2100])
+
+ds_list_add(waves, [0, obj_enemy_boss_phase1, 1, 600])
 
 
 // Spawn points

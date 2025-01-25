@@ -3,8 +3,8 @@
 // Set direction to hero
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
 
-// Set speed to 2
-speed = 2
+// Set speed to 4
+speed = 4
 
 // Move
 if place_meeting(x+(sign(speed))*8, y, par_enemy)
@@ -51,7 +51,5 @@ if(place_meeting(x, y, obj_sword) && !hit)
 
 // Damage player
 if(place_meeting(x, y, obj_hero) && !hit && !obj_hero.inv) {
-	instance_destroy()
-	with (mywand) instance_destroy()
-	global.hp -= 5	
+	global.hp -= 10	
 }

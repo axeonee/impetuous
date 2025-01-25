@@ -32,6 +32,7 @@
     {"name":"obj_enemy_dasher","order":2,"path":"objects/obj_enemy_dasher/obj_enemy_dasher.yy",},
     {"name":"obj_enemy_ranger","order":5,"path":"objects/obj_enemy_ranger/obj_enemy_ranger.yy",},
     {"name":"obj_healing","order":7,"path":"objects/obj_healing/obj_healing.yy",},
+    {"name":"obj_music","order":2,"path":"objects/obj_music/obj_music.yy",},
     {"name":"obj_projectile_boss_phase3","order":5,"path":"objects/obj_projectile_boss_phase3/obj_projectile_boss_phase3.yy",},
     {"name":"obj_projectile_boss","order":3,"path":"objects/obj_projectile_boss/obj_projectile_boss.yy",},
     {"name":"obj_projectile","order":6,"path":"objects/obj_projectile/obj_projectile.yy",},
