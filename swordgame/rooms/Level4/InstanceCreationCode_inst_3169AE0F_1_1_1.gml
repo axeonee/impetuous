@@ -19,16 +19,13 @@ ds_list_add(waves, [0, obj_enemy_chaser, 2, 600])
 
 ds_list_add(waves, [0, obj_enemy_dasher, 0, 1800])
 ds_list_add(waves, [0, obj_enemy_dasher, 2, 1800])
-ds_list_add(waves, [0, obj_enemy_dasher, 3, 1900])
-ds_list_add(waves, [0, obj_enemy_dasher, 5, 1900])
+
 
 ds_list_add(waves, [0, obj_enemy_dasher, 0, 2000])
 ds_list_add(waves, [0, obj_enemy_dasher, 2, 2000])
-ds_list_add(waves, [0, obj_enemy_dasher, 3, 2100])
-ds_list_add(waves, [0, obj_enemy_dasher, 5, 2100])
+
 
 ds_list_add(waves, [0, obj_enemy_boss_phase1, 1, 600])
-
 
 // Spawn points
 spawn[0,0] = 0  //x coordinate of first spawn TOP LEFT

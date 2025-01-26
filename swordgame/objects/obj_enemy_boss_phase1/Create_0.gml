@@ -6,3 +6,4 @@ speed = 4
 hp = 10
 hit = false
 dashing = false
+damaged = false
