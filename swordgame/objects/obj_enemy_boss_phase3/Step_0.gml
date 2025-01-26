@@ -7,8 +7,7 @@ if(hp > 40)
 {
 	x = lerp(x, 500, dspeed) 
 	y = lerp(y, 280, dspeed)
-	//Spawn projectiles 
-	scr_spawn_projectiles(0, 0, 6, 128, "right", 4, 6);
+
 }
 else if(hp <= 40 && hp > 30) 
 {
@@ -31,7 +30,32 @@ else if(hp <= 10 && hp > 0)
 	x = lerp(x, 920, dspeed)
 	y = lerp(y, 290, dspeed)
 }
-
+//Spawn projectiles
+if (canSpawn) {
+	canSpawn = false
+	// Spawn from random side
+	var randomSide = irandom(4)
+	if (randomSide == 1 )
+	{
+		scr_spawn_projectiles(0, 0, 6, 128, "right", 4)
+		alarm[2] = game_get_speed(gamespeed_fps)
+	}
+	else if(randomSide == 2)
+	{
+		scr_spawn_projectiles(950, 0, 6, 128, "left", 4)
+		alarm[2] = game_get_speed(gamespeed_fps)
+	}
+	else if(randomSide == 3)
+	{
+		scr_spawn_projectiles(0, 550, 6, 128, "up", 4)
+		alarm[2] = game_get_speed(gamespeed_fps)
+	}
+	else if(randomSide == 4)
+	{
+		scr_spawn_projectiles(0, 0, 6, 128, "down", 4)
+		alarm[2] = game_get_speed(gamespeed_fps)
+	}
+}
 
 // If coliding with the sword and isn't damaged
 if(place_meeting(x, y, obj_sword) && !hit)
