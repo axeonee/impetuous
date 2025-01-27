@@ -1,6 +1,6 @@
 // Base of the sword
-var base_x = obj_sword.x
-var base_y = obj_sword.y
+var base_x = obj_sword.x + lengthdir_x(origin_offset, obj_sword.image_angle - 180) // Adjusted base
+var base_y = obj_sword.y + lengthdir_y(origin_offset, obj_sword.image_angle - 180)
 
 // Tip of the sword
 var angle = obj_sword.image_angle // Sword's rotation angle in degrees
