@@ -35,5 +35,5 @@
     "path":"sprites/spr_wand/spr_wand.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
