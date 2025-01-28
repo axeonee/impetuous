@@ -16,26 +16,22 @@ ds_list_add(waves, [0, obj_enemy_chaser, 7, 70])
 // Wave 1
 ds_list_add(waves, [1, obj_enemy_simple, 3, 10])
 ds_list_add(waves, [1, obj_enemy_simple, 5, 10])
-ds_list_add(waves, [1, obj_enemy_ranger, 0, 80])
-ds_list_add(waves, [1, obj_enemy_ranger, 2, 80])
+ds_list_add(waves, [1, obj_enemy_ranger_fast, 0, 80])
+ds_list_add(waves, [1, obj_enemy_ranger_fast, 2, 80])
 
 // Wave 2
 ds_list_add(waves, [2, obj_enemy_ranger, 0, 0])
 ds_list_add(waves, [2, obj_enemy_ranger, 2, 0])
-ds_list_add(waves, [2, obj_enemy_ranger, 3, 70])
-ds_list_add(waves, [2, obj_enemy_ranger, 5, 70])
+ds_list_add(waves, [2, obj_enemy_ranger_fast, 3, 70])
+ds_list_add(waves, [2, obj_enemy_ranger_fast, 5, 70])
 ds_list_add(waves, [2, obj_enemy_simple, 0, 100])
 ds_list_add(waves, [2, obj_enemy_simple, 2, 100])
-ds_list_add(waves, [2, obj_enemy_simple, 3, 100])
-ds_list_add(waves, [2, obj_enemy_simple, 5, 100])
 
 // Wave 3
-ds_list_add(waves, [3, obj_enemy_ranger, 4, 0])
-ds_list_add(waves, [3, obj_enemy_ranger, 6, 0])
+ds_list_add(waves, [3, obj_enemy_ranger_fast, 4, 0])
+ds_list_add(waves, [3, obj_enemy_ranger_fast, 6, 0])
 ds_list_add(waves, [3, obj_enemy_chaser, 1, 0])
-ds_list_add(waves, [3, obj_enemy_chaser, 7, 0])
 ds_list_add(waves, [3, obj_enemy_chaser, 1, 100])
-ds_list_add(waves, [3, obj_enemy_chaser, 7, 100])
 
 //End waves
 ds_list_add(waves, [4, obj_healing, 8, 0])

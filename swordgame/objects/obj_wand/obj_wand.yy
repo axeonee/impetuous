@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wand",
-    "path":"sprites/spr_wand/spr_wand.yy",
+    "name":"spr_fast_bow_animated",
+    "path":"sprites/spr_fast_bow_animated/spr_fast_bow_animated.yy",
   },
   "spriteMaskId":null,
   "visible":true,

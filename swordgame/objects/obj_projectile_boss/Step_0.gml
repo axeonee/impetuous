@@ -9,6 +9,7 @@ var nearest = instance_nearest(x, y, par_enemy)
 if (place_meeting(x, y, obj_hero))
 {
 	global.hp -= 15
+	instance_create_layer(x, y, "Enemies", obj_explosion)
 	instance_destroy()
 }
 
@@ -26,5 +27,8 @@ else if (place_meeting(x, y, par_enemy) && parried)
 	nearest.hp -= 3
 	parried = false
 	instance_destroy()
+	instance_create_layer(x, y, "Enemies", obj_explosion)
 	// TO DO: Add sound
 }
+
+if (image_index >= image_number) image_speed = 0

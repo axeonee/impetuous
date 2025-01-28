@@ -14,6 +14,9 @@ if (instance_exists(obj_hero))
 		countdown--
 		if (countdown <= 0)
 		{
+			// Start shoot animation
+			shooting = true
+			
 			countdown = countdownrate
 			// Play sound
 			with (instance_create_layer(x, y, "Projectiles", obj_projectile))
@@ -25,4 +28,30 @@ if (instance_exists(obj_hero))
 			}
 		}
 	}
+	// Set appropiate shoot speed
+	switch (owner.sprite_index)
+	{
+		case spr_simple_ranger:
+			break
+		case spr_fast_ranger:
+			// Change shoot cooldown
+			countdownrate = 30
+			break
+	}
+	//Play animation if shooting, else stop.
+	if (shooting)
+		{
+			image_speed = 1
+			if(image_index >= image_number - 1) 
+			{
+				shooting = false
+				image_index = 0
+				image_speed = 0
+			}
+		}
+		else 
+		{
+			image_speed = 0
+			image_index = 0
+		}
 }
