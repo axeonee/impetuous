@@ -3,11 +3,11 @@
 waves = ds_list_create()
 
 // Wave 0
-ds_list_add(waves, [0, obj_enemy_ranger, 4, 0])
-ds_list_add(waves, [0, obj_enemy_chaser, 4, 50])
-ds_list_add(waves, [0, obj_enemy_ranger, 6, 0])
-ds_list_add(waves, [0, obj_enemy_chaser, 6, 50])
-ds_list_add(waves, [0, obj_enemy_chaser, 1, 100])
+ds_list_add(waves, [0, obj_enemy_ranger_fast, 4, 0])
+ds_list_add(waves, [0, obj_enemy_chaser, 4, 100])
+ds_list_add(waves, [0, obj_enemy_ranger_fast, 6, 0])
+ds_list_add(waves, [0, obj_enemy_chaser, 6, 100])
+ds_list_add(waves, [0, obj_enemy_chaser, 1, 150])
 ds_list_add(waves, [0, obj_enemy_chaser, 2, 150])
 ds_list_add(waves, [0, obj_enemy_chaser, 3, 200])
 ds_list_add(waves, [0, obj_enemy_chaser, 4, 250])

@@ -38,23 +38,20 @@ if (canSpawn) {
 	if (randomSide == 1 )
 	{
 		scr_spawn_projectiles(0, 0, 6, 128, "right", 4)
-		alarm[2] = game_get_speed(gamespeed_fps)
 	}
 	else if(randomSide == 2)
 	{
-		scr_spawn_projectiles(950, 0, 6, 128, "left", 4)
-		alarm[2] = game_get_speed(gamespeed_fps)
+		scr_spawn_projectiles(960, 0, 6, 128, "left", 4)
 	}
 	else if(randomSide == 3)
 	{
-		scr_spawn_projectiles(0, 550, 6, 128, "up", 4)
-		alarm[2] = game_get_speed(gamespeed_fps)
+		scr_spawn_projectiles(200, 550, 6, 128, "up", 4)
 	}
 	else if(randomSide == 4)
 	{
-		scr_spawn_projectiles(0, 0, 6, 128, "down", 4)
-		alarm[2] = game_get_speed(gamespeed_fps)
+		scr_spawn_projectiles(200, 0, 6, 128, "down", 4)
 	}
+	alarm[2] = game_get_speed(gamespeed_fps) 
 }
 
 // If coliding with the sword and isn't damaged
