@@ -5,7 +5,7 @@
 global.hp = 50;
 hpMax = global.hp;
 
-healthbar_width = 100;
-healthbar_height = 13;
-healthbar_x = 60;
-healthbar_y = 20;
+healthbar_width = 250;
+healthbar_height = 40;
+healthbar_x = 200;
+healthbar_y = 50;

@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_boss_phase2",
-    "path":"sprites/spr_enemy_boss_phase2/spr_enemy_boss_phase2.yy",
+    "name":"spr_boss",
+    "path":"sprites/spr_boss/spr_boss.yy",
   },
   "spriteMaskId":null,
   "visible":true,

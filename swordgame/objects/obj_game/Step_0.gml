@@ -19,23 +19,6 @@ if(keyboard_check_pressed(ord("G")))
 {
 	global.hp = 99999999
 }
-// Spawn simple enemy for testing
-/*if(keyboard_check_pressed(ord("X")))
-{
-	instance_create_layer(700, 130, "Enemies", obj_enemy_simple)
-}
-
-// Spawn dasher enemy for testing
-else if(keyboard_check_pressed(ord("C")))
-{
-	instance_create_layer(700, 130, "Enemies", obj_enemy_dasher)
-}
-
-// Spawn dasher enemy for testing
-else if(keyboard_check_pressed(ord("V")))
-{
-	instance_create_layer(700, 130, "Enemies", obj_enemy_chaser)
-}*/
 
 // Goto wave for testing
 if(keyboard_check_pressed(ord("1")))
