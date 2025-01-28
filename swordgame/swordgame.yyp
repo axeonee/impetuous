@@ -47,6 +47,7 @@
   },
   "name":"swordgame",
   "resources":[
+    {"id":{"name":"obj_boss_bar","path":"objects/obj_boss_bar/obj_boss_bar.yy",},},
     {"id":{"name":"obj_enemy_boss_phase1","path":"objects/obj_enemy_boss_phase1/obj_enemy_boss_phase1.yy",},},
     {"id":{"name":"obj_enemy_boss_phase2","path":"objects/obj_enemy_boss_phase2/obj_enemy_boss_phase2.yy",},},
     {"id":{"name":"obj_enemy_boss_phase3","path":"objects/obj_enemy_boss_phase3/obj_enemy_boss_phase3.yy",},},
@@ -85,6 +86,8 @@
     {"id":{"name":"grass_tiles","path":"sprites/grass_tiles/grass_tiles.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_big_projectile","path":"sprites/spr_big_projectile/spr_big_projectile.yy",},},
+    {"id":{"name":"spr_boss_hpbar_bg","path":"sprites/spr_boss_hpbar_bg/spr_boss_hpbar_bg.yy",},},
+    {"id":{"name":"spr_boss_hpbar","path":"sprites/spr_boss_hpbar/spr_boss_hpbar.yy",},},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_chaser","path":"sprites/spr_chaser/spr_chaser.yy",},},
     {"id":{"name":"spr_dasher","path":"sprites/spr_dasher/spr_dasher.yy",},},
