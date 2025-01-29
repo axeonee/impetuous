@@ -33,9 +33,28 @@ function scr_spawn_projectiles()
 		 // Create the projectile
 		 var projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
 		 // Set the projectile speed and direction
-		 if (pDirection == "right") { projectile.hspeed = pSpeed; projectile.vspeed = 0; projectile.direction = 0 }
-		 if (pDirection == "left") { projectile.hspeed = -pSpeed; projectile.vspeed = 0; projectile.direction = 180}
-		 if (pDirection == "up") { projectile.hspeed = 0; projectile.vspeed = -pSpeed; projectile.direction = 90}
-		 if (pDirection == "down") { projectile.hspeed = 0; projectile.vspeed = pSpeed; projectile.direction = 270}
+		switch (pDirection)
+		{
+			case "right":
+				projectile.hspeed = pSpeed
+				projectile.vspeed = 0
+				projectile.image_angle = 0
+				break
+			case "left":
+				projectile.hspeed = -pSpeed
+				projectile.vspeed = 0
+				projectile.image_angle = 180
+				break
+			case "up":
+				projectile.hspeed = 0 
+				projectile.vspeed = -pSpeed
+				projectile.image_angle = 90
+				break
+			case "down":
+				projectile.hspeed = 0
+				projectile.vspeed = pSpeed
+				projectile.image_angle = 270
+				break
 		}
+	}
 }
