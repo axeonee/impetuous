@@ -37,19 +37,19 @@ if (canSpawn) {
 	var randomSide = irandom(4)
 	if (randomSide == 1 )
 	{
-		scr_spawn_projectiles(0, 0, 6, 128, "right", 4)
+		scr_spawn_projectiles(0, 0, 6, 128, "right", 2)
 	}
 	else if(randomSide == 2)
 	{
-		scr_spawn_projectiles(960, 0, 6, 128, "left", 4)
+		scr_spawn_projectiles(960, 0, 6, 128, "left", 2)
 	}
 	else if(randomSide == 3)
 	{
-		scr_spawn_projectiles(200, 550, 6, 128, "up", 4)
+		scr_spawn_projectiles(200, 550, 6, 128, "up", 2)
 	}
 	else if(randomSide == 4)
 	{
-		scr_spawn_projectiles(200, 0, 6, 128, "down", 4)
+		scr_spawn_projectiles(200, 0, 6, 128, "down", 2)
 	}
 	alarm[2] = game_get_speed(gamespeed_fps) 
 }
