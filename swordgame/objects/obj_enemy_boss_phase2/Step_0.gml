@@ -43,7 +43,6 @@ if place_meeting(x, y+(sign(speed))*8, par_enemy)
 if(place_meeting(x, y, obj_sword) && !hit)
 {
 	// Otherwise, decrease HP and set hit to true and start the cooldown
-		hp--
 		global.bosshp--
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5

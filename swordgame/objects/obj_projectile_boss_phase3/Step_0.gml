@@ -24,8 +24,7 @@ else if (place_meeting(x, y, obj_sword) && instance_exists(nearest))
 // If a projectile has been parried and it touches an enemy, decrease its hp by 3
 else if (place_meeting(x, y, par_enemy) && parried)
 {
-	if (nearest == obj_enemy_boss_phase2 || nearest == obj_enemy_boss_phase3) global.bosshp -= 5
-	nearest.hp -= 5
+	if (nearest == obj_enemy_boss_phase2 || nearest == obj_enemy_boss_phase3) global.bosshp -= 10
 	parried = false
 	instance_create_layer(x, y, "Enemies", obj_explosion)
 	instance_destroy()

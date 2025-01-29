@@ -1,8 +1,8 @@
 /// @description Set Variables 
 dspeed = 0.07
 
-loops = 0
-hp = 100
+global.bosshp = 75
+obj_boss_bar.hpMax = global.bosshp
 hit = false
 damaged = false
 

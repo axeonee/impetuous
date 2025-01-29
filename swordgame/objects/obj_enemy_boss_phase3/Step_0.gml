@@ -3,29 +3,29 @@
 // Set direction to hero
 direction = point_direction(x, y, obj_hero.x, obj_hero.y)
 
-if(hp > 40)
+if(global.bosshp > 40)
 {
 	x = lerp(x, 500, dspeed) 
 	y = lerp(y, 280, dspeed)
 
 }
-else if(hp <= 40 && hp > 30) 
+else if(global.bosshp <= 40 && global.bosshp > 30) 
 {
 	x = lerp(x, 500, dspeed)
 	y = lerp(y, 20, dspeed)
 
 }
-else if(hp <= 30 && hp > 20) 
+else if(global.bosshp <= 30 && global.bosshp > 20) 
 {
 	x = lerp(x, 500, dspeed)
 	y = lerp(y, 500, dspeed)
 }
-else if(hp <= 20 && hp > 10) 
+else if(global.bosshp <= 20 && global.bosshp > 10) 
 {
 	x = lerp(x, 20, dspeed)
 	y = lerp(y, 290, dspeed)
 }
-else if(hp <= 10 && hp > 0)
+else if(global.bosshp <= 10 && global.bosshp > 0)
 {
 	x = lerp(x, 920, dspeed)
 	y = lerp(y, 290, dspeed)
@@ -58,7 +58,6 @@ if (canSpawn) {
 if(place_meeting(x, y, obj_sword) && !hit)
 {
 	// Otherwise, decrease HP and set hit to true and start the cooldown
-		hp--
 		global.bosshp--
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
