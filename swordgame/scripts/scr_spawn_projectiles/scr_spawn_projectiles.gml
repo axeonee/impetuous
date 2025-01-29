@@ -21,40 +21,42 @@ function scr_spawn_projectiles()
 	{
 		 var px = start_x
 		 var py = start_y
-		 // Adjust position based on direction and spacing
-		 if (pDirection == "right" || pDirection == "left") 
-		 {
-			 py += i * spacing; // Stack vertically (adjust y-axis)
-		 } 
-		 else if (pDirection == "up" || pDirection == "down") 
-		 {
-		     px += i * spacing; // Stack horizontally (adjust x-axis)
-		 }
-		 // Create the projectile
-		 var projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
+		 var projectile = noone
 		 // Set the projectile speed and direction
 		switch (pDirection)
 		{
 			case "right":
+				py += i * spacing
+				projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
 				projectile.hspeed = pSpeed
 				projectile.vspeed = 0
 				projectile.image_angle = 0
 				break
 			case "left":
+				py += i * spacing
+				projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
 				projectile.hspeed = -pSpeed
 				projectile.vspeed = 0
 				projectile.image_angle = 180
 				break
 			case "up":
+				px += i * spacing
+				projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
 				projectile.hspeed = 0 
 				projectile.vspeed = -pSpeed
 				projectile.image_angle = 90
 				break
 			case "down":
+				px += i * spacing
+				projectile = instance_create_layer(px, py, layer, obj_projectile_boss_phase3_BIG);
 				projectile.hspeed = 0
 				projectile.vspeed = pSpeed
 				projectile.image_angle = 270
 				break
+			default:
+				show_debug_message("Error: Invalid direction " + string(pDirection))
+				break
+				
 		}
 	}
 }
