@@ -22,6 +22,7 @@ function scr_spawn_projectiles()
 		 var px = start_x
 		 var py = start_y
 		 var projectile = noone
+		 
 		 // Set the projectile speed and direction
 		switch (pDirection)
 		{

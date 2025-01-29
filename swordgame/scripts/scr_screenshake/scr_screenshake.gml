@@ -3,13 +3,13 @@
 /// @param  {real}  _magnitude  The amount of screenshake to apply
 /// @param  {real}  _fade       How quickly the screenshake effect will fade out
 /// @description    Set the screenshake object variables.
-function scr_screenshake()
+function scr_screenshake(_time, _magnitude, _fade)
 {
 	 with (obj_screenshake)
    {
       shake = true;
-      shake_time = argument0;
-      shake_magnitude = argument1;
-      shake_fade = argument2;
+      shake_time = _time;
+      shake_magnitude = _magnitude;
+      shake_fade = _fade;
    }
 }

@@ -6,7 +6,7 @@ y += lengthdir_y(spd, direction)
 //Get nearest enemy
 var nearest = instance_nearest(x, y, par_enemy)
 
-if (place_meeting(x, y, obj_hero))
+if (place_meeting(x, y, obj_hero) && !parried)
 {
 	global.hp -= 7
 	instance_destroy()
