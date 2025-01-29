@@ -5,7 +5,7 @@
 /// @description    Set the screenshake object variables.
 function scr_screenshake(_time, _magnitude, _fade)
 {
-	 with (obj_screenshake)
+	 with (obj_shake)
    {
       shake = true;
       shake_time = _time;
