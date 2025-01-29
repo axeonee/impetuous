@@ -12,7 +12,7 @@ if (x < 0 || x > room_width || y < 0 || y > room_height)
 {
     instance_destroy()
 }
-if (place_meeting(x, y, obj_hero) && !parried)
+if (place_meeting(x, y, obj_hero))
 {
 	instance_create_layer(x, y, "Enemies", obj_explosion)
 	global.hp -= 10
