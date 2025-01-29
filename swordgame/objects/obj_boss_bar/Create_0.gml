@@ -5,5 +5,5 @@ hpMax = global.bosshp;
 
 healthbar_width = 250;
 healthbar_height = 40;
-healthbar_x = 800;
+healthbar_x = 1000;
 healthbar_y = 50;
