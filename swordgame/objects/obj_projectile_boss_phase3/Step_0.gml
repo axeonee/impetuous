@@ -8,7 +8,7 @@ var nearest = instance_nearest(x, y, par_enemy)
 
 if (place_meeting(x, y, obj_hero))
 {
-	global.hp -= 25
+	global.hp -= 10
 	instance_create_layer(x, y, "Enemies", obj_explosion)
 	instance_destroy()
 }
