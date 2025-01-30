@@ -37,3 +37,8 @@ else if(keyboard_check_pressed(ord("4")))
 {
 	room_goto(3)
 }
+else if(keyboard_check_pressed(ord("5")))
+{
+	room_goto(4)
+}
+

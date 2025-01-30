@@ -32,3 +32,6 @@ else if (place_meeting(x, y, par_enemy) && parried)
 }
 
 if (image_index >= image_number) image_speed = 0
+
+// Make sure its facing the right way
+image_angle = direction
