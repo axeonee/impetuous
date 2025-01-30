@@ -51,7 +51,7 @@ if (canSpawn) {
 	{
 		scr_spawn_projectiles(200, 0, 6, 128, "down", 2)
 	}
-	alarm[2] = game_get_speed(gamespeed_fps) 
+	alarm[2] = game_get_speed(gamespeed_fps) * 2
 }
 
 // If coliding with the sword and isn't damaged
