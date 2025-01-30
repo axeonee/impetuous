@@ -64,3 +64,7 @@ if(place_meeting(x, y, obj_hero) && !hit && !obj_hero.inv) {
 	instance_destroy()
 	global.hp -= 10	
 }
+
+// Face correct direction
+if (direction > 90 && direction < 270) image_xscale = -1
+else image_xscale = 1
