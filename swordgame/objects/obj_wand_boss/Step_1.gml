@@ -16,6 +16,7 @@ if (instance_exists(obj_hero))
 		{
 			countdown = countdownrate
 			// Play sound
+			audio_play_sound(snd_fireball, 800, 0, 1, 0, irandom(5))
 			with (instance_create_layer(x, y, "Projectiles", obj_projectile_boss))
 			{
 				spd = 8

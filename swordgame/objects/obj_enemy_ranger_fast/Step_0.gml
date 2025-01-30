@@ -46,6 +46,7 @@ if(place_meeting(x, y, obj_sword) && !hit)
 		hit = true
 		alarm[0] = game_get_speed(gamespeed_fps) * 0.5
 		// Play sound
+		audio_play_sound(snd_hit, 800, 0, 1, 0, irandom(5))
 }
 
 // Damage player
@@ -53,6 +54,8 @@ if(place_meeting(x, y, obj_hero) && !hit && !obj_hero.inv) {
 	instance_destroy()
 	with (mywand) instance_destroy()
 	global.hp -= 5	
+	// Play sound
+	audio_play_sound(snd_hit, 800, 0, 1, 0, irandom(5))
 }
 
 // Face correct direction
