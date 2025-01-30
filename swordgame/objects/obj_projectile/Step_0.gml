@@ -28,3 +28,6 @@ else if (place_meeting(x, y, par_enemy) && parried)
 	instance_destroy()
 	// TO DO: Add sound
 }
+
+// Make sure its facing the right way
+image_angle = direction
