@@ -9,3 +9,5 @@ healthbar_width = 250;
 healthbar_height = 40;
 healthbar_x = 200;
 healthbar_y = 50;
+
+playing = false

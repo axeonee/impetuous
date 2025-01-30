@@ -9,3 +9,4 @@ dashing = false
 damaged = false
 
 instance_create_layer(x, y, "Enemies", obj_boss_bar)
+audio_play_sound(snd_boss, 800, 0)
