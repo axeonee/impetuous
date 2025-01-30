@@ -21,12 +21,14 @@ if (triggered)
 	{
 		if (current_wave == total_waves)
 		{
-			// If this isn't the last level, go to the next. Else, go to the menu
-			with (instance_create_layer(x, y, "Player", obj_fade))
+			// If this isn't the last level, go to the next.
+			if (room != Level4)
 			{
-				room_to_transition = room_next(room)
+				with (instance_create_layer(x, y, "Player", obj_fade))
+				{
+					room_to_transition = room_next(room)
+				}
 			}
-			//if (room != room_last) room_goto_next()
 			instance_destroy()	
 		}
 		else
