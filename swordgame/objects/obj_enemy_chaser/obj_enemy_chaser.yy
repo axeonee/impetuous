@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chaser",
-    "path":"sprites/spr_chaser/spr_chaser.yy",
+    "name":"spr_chaser_anim",
+    "path":"sprites/spr_chaser_anim/spr_chaser_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

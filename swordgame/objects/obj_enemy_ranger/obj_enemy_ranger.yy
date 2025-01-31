@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_simple_ranger",
-    "path":"sprites/spr_simple_ranger/spr_simple_ranger.yy",
+    "name":"spr_simple_ranger_anim",
+    "path":"sprites/spr_simple_ranger_anim/spr_simple_ranger_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

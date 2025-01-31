@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dasher",
-    "path":"sprites/spr_dasher/spr_dasher.yy",
+    "name":"spr_dasher_anim",
+    "path":"sprites/spr_dasher_anim/spr_dasher_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

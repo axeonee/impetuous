@@ -42,7 +42,7 @@ else if(keyboard_check_pressed(ord("5")))
 	room_goto(4)
 }
 
-if (global.hp <= 15 && !playing)
+/*if (global.hp <= 15 && !playing)
 {
 	playing = true
 	audio_play_sound(snd_low_hp, 900, 1, 5)
@@ -51,4 +51,5 @@ else
 {
 	audio_stop_sound(snd_low_hp)
 	playing = false
-}
+} */
+// Refuses to work properly, will just cut it off sadly.

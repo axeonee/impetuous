@@ -2,4 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-room_goto(Level1);
+with (instance_create_layer(x, y, "Instances_1", obj_fade))
+{
+	room_to_transition = Level1
+}

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_simple",
-    "path":"sprites/spr_simple/spr_simple.yy",
+    "name":"spr_simple_anim",
+    "path":"sprites/spr_simple_anim/spr_simple_anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,7 +1,7 @@
 /// @description Set Variables 
 
 
-global.bosshp = 25
+global.bosshp = 50
 obj_boss_bar.hpMax = global.bosshp
 hit = false
 damaged = false
