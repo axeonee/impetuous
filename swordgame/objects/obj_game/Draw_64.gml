@@ -11,5 +11,5 @@ if (!instance_exists(obj_fade) && room != EndScreen && room != MainMenu)
 if (room = EndScreen)
 {	draw_set_color(c_white)
 	draw_set_font(kennypixel)
-	draw_text_transformed(100, 100, "Congrats! You won!\n I hope you enjoyed our small little game. While unpolished, I hope it was fun!\n and hopefully not too annoying! Sorry.\n\nMain Programmer: AxeOne\nProgramming Help: Yellowbebo\nArt: Mr_Jessy\nMusic: Dtrondon", 2, 2, 0)
+	draw_text_transformed(100, 100, "Congrats! You won!\n I hope you enjoyed our small little game. While unpolished, I hope it was fun!\n and hopefully not too annoying! Sorry.\n\nMain Programmer: AxeOne\nProgramming Help: Yellowbebo\nArt: Mr_Jessy\nComposer: Dtrondon", 2, 2, 0)
 }

@@ -4,10 +4,17 @@
 // Death
 if(global.hp <= 0)
 {
-	game_restart();
+	audio_stop_all()
+	layer_destroy_instances("Player")
+	layer_destroy_instances("Wand")
+	layer_destroy_instances("Projectiles")
+	layer_destroy_instances("Enemies")
+	global.hp = 50
+	room_goto(MainMenu)
 }
 
 
+/*
 // Manual reset
 if(keyboard_check_pressed(ord("R")))
 {
