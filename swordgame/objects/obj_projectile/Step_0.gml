@@ -16,7 +16,7 @@ if (place_meeting(x, y, obj_hero) && !parried)
 else if (place_meeting(x, y, obj_sword) && instance_exists(nearest))
 {
 	// Play sound
-	audio_play_sound(snd_deflect, 800, 0, 1, 0, irandom(5))
+	audio_play_sound(snd_deflect_temp, 800, 0, 1, 0, irandom(5))
 	parried = true
 	direction = point_direction(x, y, nearest.x, nearest.y)	
 	

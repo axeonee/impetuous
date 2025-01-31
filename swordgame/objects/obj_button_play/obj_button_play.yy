@@ -3,7 +3,6 @@
   "%Name":"obj_button_play",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_button_play",
@@ -13,8 +12,8 @@
     "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":{
-    "name":"obj_button_parent",
-    "path":"objects/obj_button_parent/obj_button_parent.yy",
+    "name":"obj_button_parent_1",
+    "path":"objects/obj_button_parent_1/obj_button_parent_1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mainmenubutton",
-    "path":"sprites/spr_mainmenubutton/spr_mainmenubutton.yy",
+    "name":"spr_playbutton",
+    "path":"sprites/spr_playbutton/spr_playbutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

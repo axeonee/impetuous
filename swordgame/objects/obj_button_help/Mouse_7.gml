@@ -9,7 +9,7 @@ draw_set_font(FontRenogare);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-draw_text(x, y + 220, "Sorry pal, not implemented yet :p");
+draw_text(x, y + 100, "Sorry pal, not implemented yet :p");
 
 // JIC*: reset all values back to default to not interfere with other stuff
 draw_set_font(FontDefault);
