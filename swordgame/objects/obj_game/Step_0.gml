@@ -14,7 +14,7 @@ if(global.hp <= 0)
 }
 
 
-/*
+
 // Manual reset
 if(keyboard_check_pressed(ord("R")))
 {
